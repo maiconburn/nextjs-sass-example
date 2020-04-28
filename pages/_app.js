@@ -1,7 +1,5 @@
-import css from '../src/css/global.module.scss'
-
 function MyApp({ Component, pageProps }) {
-  return <Component className={css.global} {...pageProps} />
+  return <Component {...pageProps} />
 }
 
 // Only uncomment this method if you have blocking data requirements for
